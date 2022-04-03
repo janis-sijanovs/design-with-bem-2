@@ -1,0 +1,26 @@
+.works-section {
+    background-color: $bg-light;
+    padding: 80px 165px 87px;
+
+    &__header {
+        font-family: 'Inter', sans-serif;
+        color: $text-gray-900;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        margin-bottom: 48px;
+    }
+
+    &__items-grid {
+        display: flex;
+        column-gap: 30px;
+        row-gap: 30px;
+        flex-wrap: wrap;
+
+        &__item {
+            height: 350px;
+            width: 350px;
+        }
+    }
+}

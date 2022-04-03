@@ -1,0 +1,47 @@
+.header {
+    background-color: $bg-dark;
+    color: $header-text-primary;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+    &__top {
+        padding: 48px 71px 93px 63px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        &__text {
+            font-size: 18.05px;
+            line-height: 13px;
+        }
+
+        &__nav {
+            @include nav-bar
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        padding-bottom: 154px;
+        align-items: center;
+
+        &__agency-name {
+            font-size: 12.27px;
+            color: $header-text-secondary;
+            line-height: 9px;
+        }
+
+        &__header-text {
+            font-size: 62.8px;
+            line-height: 45px;
+        }
+
+        &__slogan {
+            font-size: 16.6px;
+            font-weight: 400;
+            line-height: 13px;
+        }
+    }
+}

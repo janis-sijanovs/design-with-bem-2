@@ -1,0 +1,30 @@
+// Utilities
+
+@import "utility/fonts";
+@import "utility/variables";
+@import "utility/mixins";
+
+// Components
+
+@import "components/header.scss";
+@import "components/footer.scss";
+@import "components/color-section.scss";
+@import "components/works-section.scss";
+@import "components/subscription-button-area.scss";
+@import "components/card-section.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .2s;
+}
+
+html {
+  background-color: $bg-gray;
+}
+
+body {
+  width: 1440px;
+  margin: auto;
+}

@@ -1,0 +1,8 @@
+.footer {
+    background-color: $bg-dark;
+    color: $header-text-primary;
+    @include nav-bar;
+    align-content: center;
+    justify-content: center;
+    padding: 64px 0;
+}
